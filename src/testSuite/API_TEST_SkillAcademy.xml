@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Skill Academy Test">
+
+    <groups>
+        <run>
+            <exclude name="POST"/>
+        </run>
+    </groups>
+
+    <test name="Skill Academy Test Example">
+        <classes>
+            <class name="SkillAcademy_API">
+                <methods>
+                    <include name="GET_SIMPLE_TEST"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
